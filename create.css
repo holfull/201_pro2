@@ -1,0 +1,145 @@
+@charset "UTF-8";
+nav{
+	width: 100%;
+	height: 60px;
+	text-align:center;
+	}
+
+nav a {
+	text-align:center;
+	font-family:"Lucida Grande";
+	font-size: 24px;
+	float:inherit;
+	margin: 0px;
+	line-height: 60px;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration:none;
+	color: #787575;
+	}
+	
+nav a:hover{
+	text-decoration:none;
+	cursor: pointer;
+	font-size: 30px;
+	color: #644280;
+}
+
+#h2 {
+	color:#000000;
+	font-family: 'Inconsolata', monospace;
+	font-size:110px;
+	font-style:normal;
+	letter-spacing: 5px;
+	text-align:center;
+	
+}
+
+#h3 {
+	color:#868686;
+	font-family: 'Poiret One', cursive;
+	font-size: 35px;
+	text-align:center;
+	
+	
+}
+
+
+.gender{
+	text-align:center;
+	color:#000000;
+	font-family:"Helvetica";
+	font-size:20px;
+		
+}
+
+.race{
+	text-align:center;
+	color:#000000;
+	font-family:"Helvetica";
+	font-size:20px;	
+}
+
+.hair{
+	text-align:center;
+	color:#000000;
+	font-family:"Helvetica";
+	font-size:20px;	
+}
+
+.eye{
+	text-align:center;
+	color:#000000;
+	font-family:"Helvetica";
+	font-size:20px;	
+}
+
+.heightf{
+	text-align:center;
+	color:#000000;
+	font-family:"Helvetica";
+	font-size:20px;	
+}
+
+.sexuality{
+	text-align:center;
+	color:#000000;
+	font-family:"Helvetica";
+	font-size:20px;	
+}
+
+.heightm{
+	text-align:center;
+	color:#000000;
+	font-family:"Helvetica";
+	font-size:20px;	
+}
+
+.creations{
+	text-align:center;
+	color:#000000;
+	font-family:"Helvetica";
+	font-size:20px;	
+}
+
+.button {
+	margin-left:300px;	
+}
+
+/* Simple grid */
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-50{
+	width: 49%;
+	float: left;
+	
+}
+
+.g-30{
+	width: 49%;
+	float: right;
+}
+
+.g-70{
+	width: 49%;
+	float: left;
+}
+
+.show{
+	border-style: solid;
+    border-color: #9d3b50;
+	padding: 2px;
+}
+
+.padded{
+	padding: 10px; /* I add this to cells to add a little padding*/
+}
+
+#p6 {
+	colour: #868686;	
+	font-family: 'Poiret One', cursive;
+	text-align:center;
+}
